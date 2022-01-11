@@ -1,8 +1,6 @@
 {
   "name": "relay-compiler-ci",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "relay": "relay-compiler"
   },
@@ -18,8 +16,7 @@
     "schema": "./apps/backend/schema/__generated__/main.graphql",
     "exclude": [
       "**/node_modules/**/*",
-      "**/apps/backend/**/*",
-      "**/apps/admin/**/*"
+      "**/apps/backend/**/*"
     ],
     "language": "typescript",
     "noFutureProofEnums": true,
