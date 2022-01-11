@@ -13,7 +13,7 @@
   "relay": {
     "src": "./",
     "artifactDirectory": "./types",
-    "schema": "./apps/backend/schema/__generated__/main.graphql",
+    "schema": "./apps/backend/schema/main.graphql",
     "exclude": [
       "**/node_modules/**/*",
       "**/apps/backend/**/*"
