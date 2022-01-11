@@ -2,7 +2,7 @@
   "name": "relay-compiler-ci",
   "version": "1.0.0",
   "scripts": {
-    "relay": "relay-compiler"
+    "relay": "relay-compiler --src . --schema ./apps/backend/schema/__generated__/main.graphql --artifactDirectory types"
   },
   "keywords": [],
   "author": "",
